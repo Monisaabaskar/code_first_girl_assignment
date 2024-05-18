@@ -55,3 +55,6 @@ Used for pushing the local commits to the remote repository
 
 [git_push](./command_screenshots/git_push.png)
 
+
+### .gitignore
+A .gitignore file is a hidden file which can be used to make sure that the git will not track a list of files
