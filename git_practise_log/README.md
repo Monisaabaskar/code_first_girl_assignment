@@ -28,17 +28,17 @@ This document is to log concepts learnt while studying about the basics of Git
 ### git clone
 Used for cloning a remote repository to the local
 
-[git_clone](git_clone.png)
+(git_clone.png)
 
 ### git add
 Used for adding a modified file to staging area or start tracking a new file and then stage it
 
-[git_add](git_add.png)
+(git_add.png)
 
 ### git commit
 Used for marking a file has reached a satisfactory state and can be part of the snapshot. The snapshot will have a unique id and it is good practise to have a meaningful comment about the changes part of the snapshot
 
-[git_clone](git_clone.png)
+(git_clone.png)
 
 ### ssh-keys
 - While pushing from the local repository on the disk to remote repository on the site like Github, it is required to be done safely only by owner and authorised users of the repository
@@ -48,10 +48,10 @@ Used for marking a file has reached a satisfactory state and can be part of the 
 - The key can be added to the current session of the terminal
 - Once added user can communicate with remote repository safely
 
-[ssh_key](ssh_key.png)
+(ssh_key.png)
 
 ### git push
 Used for pushing the local commits to the remote repository
 
-[git_push](git_push.png)
+(git_push.png)
 
