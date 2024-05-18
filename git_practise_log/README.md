@@ -4,7 +4,7 @@ This document is to log concepts learnt while studying about the basics of Git
 ## Github
 - GitHub is a developer platform that allows developers to create, store, manage and share their code using the git protocol
 - It is currently a subsidiary of Microsoft
-- A few features of Github mentioned in Wikipedia
+- A few features of Github mentioned in Wikipedia [^1]
     - Documentation including automatically rendered README files in a variety of Markdown-like file formats
     - Wikis, with some repositories consisting solely of wiki content. These include curated lists of recommended software which have become known as awesome lists
     - GitHub Actions, which allows building continuous integration and continuous deployment pipelines for testing, releasing and deploying software without the use of third-party websites/platforms
@@ -28,17 +28,17 @@ This document is to log concepts learnt while studying about the basics of Git
 ### git clone
 Used for cloning a remote repository to the local
 
-[git_clone](./command_screenshots/git_clone.png)
+![git_clone](./command_screenshots/git_clone.png)
 
 ### git add
 Used for adding a modified file to staging area or start tracking a new file and then stage it
 
-[git_add](./command_screenshots/git_add.png)
+![git_add](./command_screenshots/git_add.png)
 
 ### git commit
 Used for marking a file has reached a satisfactory state and can be part of the snapshot. The snapshot will have a unique id and it is good practise to have a meaningful comment about the changes part of the snapshot
 
-[git_clone](./command_screenshots/git_clone.png)
+![git_clone](./command_screenshots/git_clone.png)
 
 ### ssh-keys
 - While pushing from the local repository on the disk to remote repository on the site like Github, it is required to be done safely only by owner and authorised users of the repository
@@ -48,13 +48,19 @@ Used for marking a file has reached a satisfactory state and can be part of the 
 - The key can be added to the current session of the terminal
 - Once added user can communicate with remote repository safely
 
-[ssh_key](./command_screenshots/ssh_key.png)
+> [!CAUTION]
+> Never share the private key with anyone
+
+![ssh_key](./command_screenshots/ssh_key.png)
 
 ### git push
 Used for pushing the local commits to the remote repository
 
-[git_push](./command_screenshots/git_push.png)
+![git_push](./command_screenshots/git_push.png)
 
 
 ### .gitignore
 A .gitignore file is a hidden file which can be used to make sure that the git will not track a list of files
+
+
+[^1] [Wikipedia](https://en.wikipedia.org/wiki/GitHub)
