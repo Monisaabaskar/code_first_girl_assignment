@@ -62,5 +62,8 @@ Used for pushing the local commits to the remote repository
 ### .gitignore
 A .gitignore file is a hidden file which can be used to make sure that the git will not track a list of files
 
+### requirements.txt
+A requirments.txt file can be used to list all the Python packages required for the current package which can later be installed with pip. The file can also mention the specific version of the package required for the project
 
+References
 [^1] [Wikipedia](https://en.wikipedia.org/wiki/GitHub)
