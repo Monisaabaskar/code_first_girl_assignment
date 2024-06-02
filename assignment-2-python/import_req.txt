@@ -1,0 +1,18 @@
+1. Import Requests -  It simplifies the process of sending HTTP requests and handling responses from web servers.
+
+2.from dotenv import load_dotenv - dotenv is a Python library that helps manage environment variables.
+                                    It reads key-value pairs from a .env file and loads them into the environment. 
+                                    This is particularly useful for managing configuration settings and sensitive information 
+                                    (like API keys, database credentials, etc.) in a safe and convenient way,
+                                    without hardcoding them into your codebase.
+
+3. import emoji - The emoji library in Python is used to work with emojis in your Python scripts.
+                    It provides a simple way to include and manipulate emojis
+                    using their shortcodes (e.g., :smile:) or Unicode characters.
+
+4. datetime Class - The datetime class provides a combination of a date and a time, 
+                    including attributes such as year, 
+                    month, day, hour, minute, second, and microsecond.
+
+5. timedelta Class - The timedelta class represents a duration,
+                        the difference between two dates or times. It is useful for performing date and time arithmetic.
