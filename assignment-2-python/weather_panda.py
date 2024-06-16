@@ -188,7 +188,7 @@ def weather_format(weather_data):
     {sunrise_local}{(len("Sunrise") - len(str(sunrise_local))) * " "} | {sunset_local}
 
     Feels like {feel_like} degree Celsius. {description}
-    Max/Min temperature : {max_temp} / {min_temp} degree Celsius
+    Max/Min temperature : {max_temp} / {min_temp} degree Celsius[3:]
     Humidity : {humidity} %
     Pressure : {pressure} hPa
     Wind : {wind_speed} m/s {wind_cardinal_direction}
